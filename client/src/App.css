@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.app-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-primary);
+    overflow: hidden;
+}
+
+.app-loading {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+}
+
+.app-loading p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
